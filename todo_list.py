@@ -92,9 +92,7 @@ def todo_list():
 
         choice = int(input("Enter the choice : "))
         print()
-        # with open("todo_list_container.txt",'a') as file:
-        #     file.write(tasks)
-
+        
         if choice==1:
             add_task(task_id,tasks)
 
